@@ -8,4 +8,5 @@ RUN apt update && \
     apt install -y git && \
     apt install -y ffmpeg
 
+RUN pip install -U openai-whisper
 RUN pip install .
