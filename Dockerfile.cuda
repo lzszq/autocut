@@ -9,4 +9,5 @@ RUN apt update && \
     apt install -y ffmpeg
 
 RUN pip install -U openai-whisper
+RUN pip install blobfile
 RUN pip install .
